@@ -33,7 +33,7 @@ headers ={
 yang_interfaces = "/ietf-interfaces:interfaces"
 
 ### Reading routers parameters from CSV file and managing data like a dictionary
-with open('/Users/amanueli/Documents/DevNet/Scripts/DevNet/routers.csv', mode='r') as csv_file:
+with open('/path_to_file/routers.csv', mode='r') as csv_file:
     #Reading CSV file 
     csv_reader = csv.DictReader(csv_file)
     line_count = 0
@@ -51,7 +51,7 @@ with open('/Users/amanueli/Documents/DevNet/Scripts/DevNet/routers.csv', mode='r
         #Setting up CSV header
         fieldnames = ['host_ipaddr','if_name', 'description', 'enabled', 'if_ipaddr']
 
-        with open('/Users/amanueli/Documents/DevNet/Scripts/DevNet/output_interfaces.csv', mode='w') as csv_file:
+        with open('/destination_path_to_file/output_interfaces.csv', mode='w') as csv_file:
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
             writer.writeheader()
             for interface in interfaces:
