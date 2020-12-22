@@ -26,8 +26,14 @@ Credentials of this public available Sandbox to specify when prompted for it:
 
 ## Usage
 
-1. Clone this repo in your local machine typing on your terminal "git clone https://github.com/agmanuelian/config_manager.git"
-2. Install the required dependencies specified on the _requirements.txt_ file > "pip install requirements.txt"
+1. Clone this repo in your local machine typing on your terminal:
+
+```https://github.com/agmanuelian/PortAudit.git```
+
+2. Install the required dependencies specified on the _requirements.txt_ file:
+
+```pip install requirements.txt```
+
 3. Edit the _routers.csv_ file with the parameters (IP address and RESTCONF port) of the list of devices that you want to configure.
 4. Modify on the _port_audit.py_ script the directory from where the _routers.csv_ file is read, specifying your local directory. Also, modify the directory where _output_interfaces.py_ will be written to.
 5. Run the _port_audit.py_ script.
