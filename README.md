@@ -40,4 +40,6 @@ Credentials of this public available Sandbox to specify when prompted for it:
 7. You will be prompted to enter your TACACS credentials (demo credentials specified on previous section) to access the list of devices.
 8. The script will run the report, display it on the terminal and write the _output_interfaces.csv_ file (the port audit results) to the specified directory.
 
+![Alt text](screenshots/output_routers_csv.png)
+
 REF: **TACACS** is a network device access management protocol. If you have that configure to access all your network devices, you could use your TACACS credentials to access the network devices. Otherwise, using local authentication will work, too.
