@@ -36,7 +36,7 @@ Credentials of this public available Sandbox to specify when prompted for it:
 
 3. Edit the _routers.csv_ file with the parameters (IP address and RESTCONF port) of the list of devices that you want to configure.
 
-![Alt text](screenshots/output_routers_csv.png "Input CSV file, with the list of devices to audit")
+![Alt text](screenshots/routers_csv.png "Input CSV file, with the list of devices to audit")
 
 4. Modify on the _port_audit.py_ script the directory from where the _routers.csv_ file is read, specifying your local directory. Also, modify the directory where _output_interfaces.py_ will be written to.
 5. Run the _port_audit.py_ script.
